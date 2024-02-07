@@ -12,6 +12,7 @@
       1- podman pull debian
       2- podman run -dt debian  
       3- Agora acesse o container destacado e faça os proximos comandos
+      4- podman exec -it "nome_do_container" bash
       4- apt update && apt install python3
       5- Python3
   
