@@ -10,9 +10,10 @@
   Criar um container com o Debian destacável que tenha python
     Comandos:
       1- podman pull debian
-      2- podman run -it debian
-      3- apt update && apt install python3
-      4- Python3
+      2- podman run -dt debian  
+      3- Agora acesse o container destacado e faça os proximos comandos
+      4- apt update && apt install python3
+      5- Python3
   
   3ºExercicio 
   Cirar um container Fedora interativo que tenha python e tenha a ferramenta yt-dlp
