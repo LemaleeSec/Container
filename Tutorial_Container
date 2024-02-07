@@ -1,0 +1,42 @@
+1º Exercicio
+  Como baixar neofetch dentro de um container no Debian
+    Comandos:
+      1- podman pull debian
+      2- podman run -it debian
+      3- apt update && apt install neofetch
+      4- neofetch
+
+2ºExercicio 
+  Criar um container com o Debian destacável que tenha python
+    Comandos:
+      1- podman pull debian
+      2- podman run -it debian
+      3- apt update && apt install python3
+      4- Python3
+  
+  3ºExercicio 
+  Cirar um container Fedora interativo que tenha python e tenha a ferramenta yt-dlp
+    Comandos:
+      1- podman pull fedora
+      2- podman run -it fedora
+      3- sudo dnf update && dnf install python3
+      4- sudo dnf install yt-dlp
+      5- yt-dlp (link do video do youtube)
+
+  4ºExercicio 
+  Criar um container Fedora que tenha python e a ferramenta gallery-dl
+    Comandos:
+      1- podman pull fedora
+      2- podman pull -it fedora
+      3- sudo dnf update && dnf install python3
+      4- sudo dnf install wget 
+      5- wget https://github.com/mikf/gallery-dl/releases/download/v1.26.7/gallery-dl.bin
+      
+      ______    ____    __  ___
+   / ____/   /  _/   /  |/  /
+  / /_       / /    / /|_/ /
+ / __/     _/ /    / /  / /
+/_/       /___/   /_/  /_/
+
+
+      
